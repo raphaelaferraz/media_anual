@@ -1,0 +1,53 @@
+@media screen and (max-width: 375px){
+    .titulo_principal {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .descricao {
+        line-height: normal;
+        font-size: 17px;
+        margin: 0 12px 12px 12px;
+    }
+
+    .informacoes {
+        width: 90%;
+    }
+
+    .resultado {
+        width: 80%;
+        left: 6%
+    }
+
+    .frase_resultado_erro {
+        width: 85%;
+        left: 8%;
+    }
+
+    .input_nota {
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width: 378px) and (max-width: 400px) {
+    .descricao {
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0 15px 15px 15px;
+    }
+
+    .informacoes {
+        width: 95%;
+    }
+
+    .resultado{
+        width: 85%;
+        left: 3%;
+        margin-top: 15px;
+    }
+
+    .frase_resultado_erro {
+        width: 85%;
+        left: 9%;
+    }
+}

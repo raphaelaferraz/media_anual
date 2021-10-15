@@ -50,6 +50,7 @@ header {
     border-radius: 50px;
     padding: 10px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    color: #000000;
 }
 
 .input_nota {
