@@ -1,4 +1,4 @@
-//Calculo da media do aluno
+//Calculo da media do aluno:
 
 function CalculoDaMedia(){
     const estruturaDoInputNota1 = document.getElementById("nota1");
@@ -30,4 +30,13 @@ function CalculoDaMedia(){
         estruturaDoResultado.innerHTML = `Infelizmente, você foi reprovado :( Sua média é de ${mediaFixada}`;
         resultado.style.padding = "16px";
     }
+
 }
+
+//adiciona ao botão a opção de pressionar a tecla "enter" e executar o cáculo
+document.addEventListener("keypress", function(event){
+    if(event.key === 'Enter'){
+        const inputEviarEnter = document.querySelector("#input_enviar");
+        inputEviarEnter.click();
+    }
+});
