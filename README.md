@@ -1,2 +1,2 @@
-# Media bimestral 📝
-Este é um site para calcular a sua média de acordo com as suas notas de cada bimestre. 
+# Media anual 📝
+Este é um site para calcular a sua média anual de acordo com as suas notas de cada bimestre. 
