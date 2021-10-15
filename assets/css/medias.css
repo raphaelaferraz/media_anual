@@ -51,3 +51,21 @@
         left: 9%;
     }
 }
+
+
+@media screen and (min-width: 402px) and (max-width: 414px){
+    
+    .informacoes {
+        width: 95%;
+    }
+
+    .resultado {
+        width: 80%;
+        left: 6.8%;
+    }
+    
+    .frase_resultado_erro {
+        width: 85%;
+        left: 6%
+    }
+}
