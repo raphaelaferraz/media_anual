@@ -17,6 +17,7 @@ function CalculoDaMedia(){
     const valorDoInputNota4 = estruturaDoInputNota4.value;
     const nota4 = parseFloat(valorDoInputNota4);
 
+    /* Só deve realizar o calculo se todos os campos estão preenchidos */
 
     const calculoDamedia = (nota1 + nota2 + nota3 + nota4)/4;
     const mediaFixada = calculoDamedia.toFixed(1);
@@ -30,7 +31,6 @@ function CalculoDaMedia(){
         estruturaDoResultado.innerHTML = `Infelizmente, você foi reprovado :( Sua média é de ${mediaFixada}`;
         resultado.style.padding = "16px";
     }
-
 }
 
 //adiciona ao botão a opção de pressionar a tecla "enter" e executar o cáculo
