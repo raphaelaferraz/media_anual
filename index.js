@@ -18,41 +18,31 @@ function CalculoDaMedia() {
     const nota4 = parseFloat(valorDoInputNota4);
 
     /* Só deve realizar o calculo se todos os campos estão preenchidos */
-    if (document.getElementById("nota1").value == "" ||
-        document.getElementById("nota2").value == "" ||
-        document.getElementById("nota3").value == "" ||
-        document.getElementById("nota4").value == "") {
-        alert("O cáculo não foi realizado, pois é necessário preencher todos os campos!");
-    }
-    
+
     const calculoDamedia = (nota1 + nota2 + nota3 + nota4) / 4;
-    const mediaFixada = calculoDamedia.toFixed(1); 
+    const mediaFixada = calculoDamedia.toFixed(1);
     const estruturaDoResultado = document.getElementById("resultado");
     const resultado = estruturaDoResultado;
 
-    const inputs = {
-        inputNota1: document.getElementById("nota1"),
-        inputNota2: document.getElementById("nota2"),
-        inputNota3: document.getElementById("nota3"),
-        inputNota4: document.getElementById("nota4")
-    }
+    const estruturaDoResultadoComErro = document.getElementById("frase_resultado_erro");
+    const resultadoErro = estruturaDoResultadoComErro;
 
     //verificação do valor total da media e do preenchimento dos inputs
-    if (mediaFixada >= 6 &&  inputs.inputNota1 != "" 
-        && inputs.inputNota2 != "" && 
-        inputs.inputNota3 != "" && 
-        inputs.inputNota4 != "") {
+    if (mediaFixada >= 6 && estruturaDoInputNota1 != ""
+        && estruturaDoInputNota2 != "" &&
+        estruturaDoInputNota3 != "" &&
+        estruturaDoInputNota4 != "") {
         estruturaDoResultado.innerHTML = `Parabéns, você foi aprovado! Sua média é de ${mediaFixada}`;
         resultado.style.padding = "16px";
-    }else if(mediaFixada <= 6 &&  inputs.inputNota1 != "" 
-    && inputs.inputNota2 != "" && 
-    inputs.inputNota3 != "" && 
-    inputs.inputNota4 != ""){
+    } else if (mediaFixada <= 6 && estruturaDoInputNota1 != ""
+        && estruturaDoInputNota2 != "" &&
+        estruturaDoInputNota3 != "" &&
+        estruturaDoInputNota4 != "") {
         estruturaDoResultado.innerHTML = `Infelizmente, você foi reprovado :( Sua média é de ${mediaFixada}`;
         resultado.style.padding = "16px";
-    }else {
-        estruturaDoResultado.innerHTML = `Por favor, preencha todos os campos!`
-        resultado.style.padding = "16px";
+    } else {
+        estruturaDoResultadoComErro.innerHTML = `Por favor, preencha todos os campos!`
+        resultadoErro.style.padding = "16px";
     }
 }
 
