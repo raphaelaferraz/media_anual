@@ -1,8 +1,44 @@
-@media screen and (max-width: 375px){
+@media screen and (max-width: 280px){
+    .titulo_principal {
+        font-size: 24px;
+    }
+
+    .descricao {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .informacoes {
+        width: 85%;
+    }
+
+    .descricao_nota {
+        font-size: 16px;
+    }
+
+    .input_nota {
+        width: 45%;
+    }
+
+    .resultado {
+        font-size: 16px;
+        width: 85%;
+        left: 2%
+    }
+
+    .frase_resultado_erro {
+        width: 85%;
+        font-size: 16px;
+        left: 8%;
+    }
+}
+
+
+@media screen and (min-width: 282px) and (max-width: 375px){
     .titulo_principal {
         font-size: 30px;
-        font-weight: bold;
     }
+
     .descricao {
         line-height: normal;
         font-size: 17px;
@@ -29,7 +65,7 @@
 }
 
 
-@media screen and (min-width: 378px) and (max-width: 400px) {
+@media screen and (min-width: 378px) and (max-width: 400px){
     .descricao {
         font-size: 14px;
         line-height: 24px;
@@ -40,7 +76,7 @@
         width: 95%;
     }
 
-    .resultado{
+    .resultado {
         width: 85%;
         left: 3%;
         margin-top: 15px;
@@ -54,7 +90,6 @@
 
 
 @media screen and (min-width: 402px) and (max-width: 414px){
-    
     .informacoes {
         width: 95%;
     }
@@ -71,14 +106,34 @@
 }
 
 
-@media screen and (min-width: 420px) and (max-width: 770px){
+@media screen and (min-width: 420px) and (max-width: 541px){
+    .informacoes {
+        width: 95%;
+    }
+
+    .resultado {
+        width: 85%;
+        left: 5%
+    }
+
+    .frase_resultado_erro {
+        width: 100%;
+        left: 0.2%;
+    }
+}
+
+@media screen and (min-width: 544px) and (max-width: 770px){
     .informacoes {
         width: 95%
     }
 
+    .resultado {
+        width: 85%;
+        left: 5%
+    }
     
     .frase_resultado_erro {
         width: 85%;
-        left: 5%
+        left: 10%
     }
 }
