@@ -4,7 +4,7 @@
 
 ## Descrição do Projeto 📃
 
-<p style="margin-top: 1.5rem; text-align: center"> 🗒 Este é um site criado por mim para calcular a média anual de acordo com as notas de cada bimestre. 🗒</p>
+<p style="margin-top: 1.5rem; text-align: center"> 🗒 Este é umum projeto criado para calcular a média anual de acordo com as notas obtidas em cada bimestre do ano. 🗒</p>
 
 </br>
 
@@ -16,7 +16,7 @@
 
 ## Demonstração 👩‍💻
 
-<p> Você pode conferir a ladding page agora mesmo <a href="https://raphaelaferraz.github.io/media_anual/">clicando aqui 💜</a></p>
+<p> Você pode conferir o site agora mesmo <a href="https://raphaelaferraz.github.io/media_anual/">clicando aqui 💜</a></p>
 
 </br>
 
